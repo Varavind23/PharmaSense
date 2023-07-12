@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+<script src="api.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Log in - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display&amp;display=swap">
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top navbar-shrink py-3 navbar-light" id="mainNav">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"></a><img src="assets/img/Screenshot%202023-07-08%20235355.png" width="112" height="112"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                </ul><a class="btn btn-primary shadow" role="button" href="signup.html">Start Dosing!</a>
+            </div>
+        </div>
+    </nav>
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row mb-4 mb-lg-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <p class="fw-bold text-success mb-2">To get started&nbsp;</p>
+                </div>
+            </div>
+            <h2 class="fw-bold" value="fw-bold">Enter your medication below </h2>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-body text-center d-flex flex-column align-items-center"><img src="assets\img\brands\download (1).png" width="100" height="80">
+                            <form method="post" data-bs-theme="light">
+                                <div class="mb-3"><input id = 'meds'class="form-control"  name="med" placeholder="Enter medication
+                                                                   "
+                                                                   " /></div>
+                                <div class="mb-3"></div>
+                                <div class="mb-3"><a type = "button" onclick="hardcode()" class="btn btn-primary shadow d-block w-100" type="submit">ENTER</a></div>
+                            </form>
+                            <p class="text-muted"></p>
+                            <p id = "output"></p>
+                            <p id = "output1"></p>
+                            <p id = "output2"></p>
+                            <p id = "output3"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-primary-gradient"></footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bold-and-bright.js"></script>
+    <style>
+    .fw-bold {
+        text-align: center;
+    }
+</style>
+
+</body>
+
+</html>
